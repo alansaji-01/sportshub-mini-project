@@ -1,0 +1,80 @@
+.sph-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.sph-carousel-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.sph-carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.sph-carousel-item {
+    flex-shrink: 0;
+    width: 300px;
+    height: 250px;
+    margin-right: 16px;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+}
+
+.sph-carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.sph-carousel-item p {
+    color: #333 !important;  /* Add !important to force the color */
+    font-size: 16px !important;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 8px;
+    background-color: rgba(255, 255, 255, 0.7);  /* Background to enhance visibility */
+    padding: 5px;
+}
+
+
+.sph-navigate-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 1;
+}
+
+.sph-navigate-left {
+    left: 10px;
+}
+
+.sph-navigate-right {
+    right: 10px;
+}
+
+.sph-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #e0e0e0;
+    color: #555;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 12px;
+}
+

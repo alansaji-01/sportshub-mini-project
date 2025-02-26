@@ -1,0 +1,163 @@
+<html></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportsHub - FAQs</title>
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        body {
+    background-image: url('../Images/faqbg.jpg');
+    background-size: cover;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    
+    margin: 115;
+    padding: 0;
+}
+.container {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+h1 {
+    color: #050605;
+    font-size: 48px;
+}
+.faq-item {
+    background-color: #b8b3b3;
+    border: 1px solid #595656;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.faq-item i {
+    font-size: 24px;
+    color: #807e7e;
+}
+.faq-answer {
+    display: none;
+    background-color: #727070;
+    border: 1px solid #888888;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 20px;
+}
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF; /* Bootstrap primary color */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.back-button:focus {
+    outline: none; /* Remove outline on focus */
+}
+    </style>
+</head>
+<body>
+    <a class="back-button" href="../mhome.php">Back</a>
+    <div class="container">
+        <h1>SportsHub</h1>
+        <p>FAQs</p>
+        <div class="faq-item" onclick="toggleAnswer(0)">
+            <div>What is your return policy?</div>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer" id="answer-0">
+            We are still developing the website, throught the website user can't return products but user can through our email
+        </div>
+        <div class="faq-item" onclick="toggleAnswer(1)">
+            <div>How do I track my order?</div>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer" id="answer-1">
+            within in 3 days, maximum 5. we guarentee that!
+        </div>
+        <div class="faq-item" onclick="toggleAnswer(2)">
+            <div>Do you ship internationally?</div>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer" id="answer-2">
+            <Ul>
+                <li><p>Currently, we only offer shipping within India. We understand that our international customers are eager to receive our products, and we are actively working on expanding our shipping options to reach more countries in the near future.</p></li>
+                <li><p>For now, if you are located outside of India, we recommend using a package forwarding service that can provide a local address for shipping within India. Once your order is delivered to that address, the forwarding service can send it to your international location.</p></li>
+                <li><p>We appreciate your understanding and support as we strive to grow our services. If you have any further questions or suggestions, please feel free to reach out to our customer support team!</p></li>
+            </Ul>
+        </div>
+        <div class="faq-item" onclick="toggleAnswer(3)">
+            <div>Can I change my order?</div>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer" id="answer-3">
+            <p>Yes, you can change your order! However, changes can only be made within a limited time frame after your purchase. If you realize you need to modify your order, please contact our customer support team as soon as possible.</p>
+        </div>
+        <div class="faq-item" onclick="toggleAnswer(4)">
+            <div>What payment methods do you accept?</div>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer" id="answer-4">
+            <p>We strive to make your shopping experience as convenient as possible by offering a variety of payment methods. Currently, we support:</p>
+            <ul>
+                <li><strong>Credit and Debit Cards:</strong> Visa, MasterCard, American Express, and Discover.</li>
+                <li><strong>Digital Wallets:</strong> Pay Google Pay, and Apple Pay.</li>
+                <li><strong>Bank Transfers:</strong> Direct bank transfers for secure payments.</li>
+                <li><strong>Cash on Delivery (COD):</strong> Available in select areas for your convenience.</li>
+            </ul>
+        </div>
+        <div class="faq-item" onclick="toggleAnswer(5)">
+            <div>How do I contact customer service?</div>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer" id="answer-5">
+            <div class="customer-care">
+                <h2>Contact Our Customer Care Team</h2>
+                
+                <div class="contact-method">
+                    <strong>Email:</strong> Send us an email at <a href="mailto:sportshub24@email.com">sportshub24@email.com</a>, and we will respond within 24 hours.
+                </div>
+                
+                <div class="contact-method">
+                    <strong>Phone:</strong> Call our customer care at +123-211-7990 from Monday to Friday, 9 AM to 6 PM.
+                </div>
+        
+                <div class="contact-method">
+                    <strong>Live Chat:</strong> Visit our website and use the live chat feature for immediate assistance during business hours.
+                </div>
+                
+                <div class="contact-method">
+                    <strong>Contact Form:</strong> Fill out the contact form on our <a href="#">Support</a> page, and our team will get back to you shortly.
+                </div>
+        
+                <p>We're here to help with any questions or issues!</p>
+            </div>
+        </div>
+    </div>
+    <script>
+      function toggleAnswer(index) {
+        var answer = document.getElementById('answer-' + index);
+        if (answer.style.display === 'none' || answer.style.display === '') {
+            answer.style.display = 'block';
+        } else {
+               answer.style.display = 'none';
+            }
+      }
+    </script>
+</body>
+</html>

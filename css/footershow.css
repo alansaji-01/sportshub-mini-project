@@ -1,0 +1,35 @@
+.mcontainer {
+    padding: 50px 0;
+}
+.mcontainer h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 40px;
+}
+.mlogo-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.mlogo-item {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+}
+.mlogo-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+.mlogo-item span {
+    font-size: 14px;
+    color: #666;
+} 

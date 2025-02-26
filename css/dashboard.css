@@ -1,0 +1,50 @@
+body {
+    overflow-x: hidden;
+}
+.dashboard-header {
+    padding: 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.dashboard-header h2 {
+    margin: 0;
+}
+.dashboard-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.dashboard-sidebar {
+    width: 25%;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+}
+.dashboard-main {
+    width: 70%;
+}
+.dashboard-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+.dashboard-sidebar ul li {
+    margin-bottom: 10px;
+}
+.dashboard-sidebar ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    display: block;
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+.dashboard-sidebar ul li a:hover {
+    background-color: #ced4da;
+}
+.dashboard-main .card {
+    padding: 20px;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
