@@ -33,7 +33,7 @@ Contributions are welcome!
 
 ## License
 
-[MIT License](https://choosealicense.com/licenses/mit/)
+[Apache License](http://www.apache.org/licenses/)
 
 ## Acknowledgments
 
