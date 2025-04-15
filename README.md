@@ -1,21 +1,25 @@
 # sportshub-mini-project
-its a sports related items selling site, using 'HTML,CSS,JAVASCRIPT,PHP,SQL' (not finished)
+
+A sports-related e-commerce website to buy and sell sports items.  
+Built using **HTML, CSS, JavaScript, PHP, and SQL**.  
+*(Project is under development)*
+
 ## Configuration
 
-No special configuration is needed. Just clone the repository and set up your environment (e.g., XAMPP or a PHP server).
+- Install [XAMPP](https://www.apachefriends.org/index.html) to run Apache & MySQL.
+- Place the project folder (`SportsHub`) inside `htdocs`.
+- Import the database using phpMyAdmin (`sportshub.sql` file).
 
 ## Usage
 
-1. Start your PHP server (e.g., XAMPP).
-2. Import the `sportshub.sql` file into your MySQL database.
-3. Access the web application via `localhost/sportshub`.
+- Run XAMPP, start Apache and MySQL.
+- Visit `http://localhost/SportsHub` in your browser.
 
 ## Technology Stack
 
-- Frontend: HTML, CSS, Bootstrap
-- Backend: PHP
-- Database: MySQL
-- Tools: Git, VS Code
+- Frontend: HTML, CSS, JavaScript  
+- Backend: PHP  
+- Database: MySQL  
 
 ## Contributing
 
@@ -23,12 +27,9 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 
-This project is licensed under the MIT License.
+[MIT License](https://choosealicense.com/licenses/mit/)
 
 ## Acknowledgments
 
-- MG University for the project guidelines
-- Team members for collaboration
-- Stack Overflow and GitHub community for resources
-
-
+- Special thanks to our college guide.
+- Inspiration from sports e-commerce platforms like Decathlon.
