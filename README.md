@@ -103,11 +103,6 @@ $database = "sportshub";
 Access application:
 
 http://localhost/SportsHub
-Test credentials:
-
-User: test@demo.com / demo123
-
-Admin: admin@demo.com / admin123
 
 🔧 Tech Stack
 Component	Technologies
@@ -135,15 +130,3 @@ Open Pull Request
 
 📜 License
 Distributed under Apache 2.0 License. See LICENSE for details.
-
-🙏 Acknowledgments
-College mentors for guidance
-
-Decathlon for design inspiration
-
-XAMPP development team
-
-📬 Contact
-Alan Saji
-GitHub Profile
-Project Repository
