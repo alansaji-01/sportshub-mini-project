@@ -53,7 +53,7 @@ A full-stack sports e-commerce platform with user and admin interfaces.
 | **Home**         | ![Home1](https://github.com/alansaji-01/sportshub-mini-project/blob/277b9780f3946a60fac084e3eba50776ec82927d/home1.png)      | Landing page          |
 | **Home**         | ![Home2](https://github.com/alansaji-01/sportshub-mini-project/blob/412dd61bd9febac4e41da92c5e5f15ed563a2b40/home2.png)      | homepage                        |
 | **Products**     | ![Products](https://github.com/alansaji-01/sportshub-mini-project/blob/f80ce38b8e6097b3ec79e02988acf941b14fe420/products.png)   | product listing                 |
-| **Cart**         | ![Cart](screenshots/home6.png)       | Shopping cart interface         |
+| **Cart**         | ![Cart](https://github.com/alansaji-01/sportshub-mini-project/blob/d851254130b065103573559649c28c21f06823af/cart.png)       | Shopping cart interface         |
 
 ### Admin Panel
 | Section               | Preview                              | Description                     |
