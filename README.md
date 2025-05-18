@@ -16,7 +16,7 @@ A college mini-project demonstrating a full-stack sports e-commerce platform wit
 ## 🖼️ User Interface Screenshots
 
 ### 1. Home Page
-![home1](https://via.placeholder.com/800x400?text=Home+Page+Screenshot)  
+![home1](https://github.com/alansaji-01/sportshub-mini-project/blob/ba64af201cd8fb9a89b0541bad1a7cb70af12ea7/home1.png)  
 *(Homepage with navigation bar, search, and featured categories)*
 
 SportsHub
