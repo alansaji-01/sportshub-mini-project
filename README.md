@@ -22,7 +22,6 @@ A full-stack sports e-commerce platform with user and admin interfaces.
 - [Tech Stack](#-tech-stack)
 - [Contributing](#-contributing)
 - [License](#-license)
-- [Acknowledgments](#-acknowledgments)
 - [Contact](#-contact)
 
 ---
