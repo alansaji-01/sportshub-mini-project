@@ -1,77 +1,118 @@
 # Sportshub Mini Project 🏆
 
-![Sportshub Banner](https://via.placeholder.com/1200x400/2D3748/FFFFFF?text=Sportshub+E-Commerce)  
-*(Replace with your actual banner image)*
+![Sportshub Banner](https://via.placeholder.com/1200x400/0D47A1/FFFFFF?text=SportsHub+E-Commerce+Platform) *(Replace with actual banner image)*
 
-A fully functional e-commerce platform for sports enthusiasts.  
-**Tech Stack**: HTML5, CSS3, JavaScript, PHP, MySQL  
-*Status: Under active development*
+A college mini-project demonstrating a full-stack sports e-commerce platform with user and admin interfaces.
 
----
-
-## 🚀 Features
-| Feature          | Description                                                                 |
-|------------------|-----------------------------------------------------------------------------|
-| **User System**  | Secure registration/login with form validation                              |
-| **Product Catalog** | Filterable grid of sports items with detailed views                         |
-| **Shopping Cart** | Add/remove items, quantity adjustment, and checkout process                |
-| **Admin Panel**  | Manage products, orders, and users (see screenshot below)                   |
+**Tech Stack**:  
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
 ---
 
-## 📸 Screenshots
-*(Replace these placeholder links with your actual screenshots)*
+## 🖼️ User Interface Screenshots
 
-| Page             | Preview                              |
-|------------------|--------------------------------------|
-| **Homepage**     | ![Home](https://via.placeholder.com/600x300?text=Homepage+Screenshot) |
-| **Product Page** | ![Products](https://via.placeholder.com/600x300?text=Product+Listing) |
-| **Admin Dashboard** | ![Admin](https://via.placeholder.com/600x300?text=Admin+Interface) |
+### 1. Home Page
+![Home Page](https://via.placeholder.com/800x400?text=Home+Page+Screenshot)  
+*(Homepage with navigation bar, search, and featured categories)*
 
----
+SportsHub
+Focus on your Games
+Get Started
+2. Product Listing Page
+Products Page
+(Grid view of available sports products)
 
-## 🛠️ Setup Guide
+text
+Featured Products:
+- KONEX Basket Ball - ₹2799
+- BORALOMIO Cricket Bat - ₹1000
+- Puma AC Milan Kit - ₹4999 (Out of Stock)
+3. Product Detail Page
+Product Detail
+(Individual product view with add-to-cart functionality)
 
-### Prerequisites
-- [XAMPP](https://www.apachefriends.org/download.html) (v3.3.0+ recommended)
-- Modern browser (Chrome/Firefox/Edge)
+text
+P. Maldini Retro Jersey - ₹666
+Adidas AG Boot - ₹4999
+COMPETITION BALL - ₹3500
+4. Category Page
+Category Page
+(Product filtering by categories and collections)
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/alansaji-01/sportshub-mini-project.git
-Move folder to XAMPP's htdocs:
+text
+Categories:
+- Footwear
+- Cricket
+- Football
+- Basketball
+
+Collections:
+- Ultraboot
+- Real Madrid
+- FC Barcelona
+🛠️ Admin Panel Screenshots (Add your admin images here)
+1. Dashboard Overview
+Admin Dashboard
+(Placeholder for admin dashboard image)
+
+2. Product Management
+Product Management
+(Placeholder for product CRUD operations image)
+
+3. Order Management
+Order Management
+(Placeholder for order processing image)
+
+⚙️ Project Setup
+Requirements:
+
+XAMPP/WAMP Server
+
+Modern Web Browser
+
+Installation:
+
 bash
+git clone https://github.com/alansaji-01/sportshub-mini-project.git
+cp -r sportshub-mini-project /opt/lampp/htdocs/  # Linux/Mac
+Database Configuration:
 
-Copy
-mv sportshub-mini-project /opt/lampp/htdocs/SportsHub  # Linux/Mac
-# OR manually copy to C:\xampp\htdocs\ on Windows
-Database setup:
-Access phpMyAdmin at http://localhost/phpmyadmin
-Create database sportshub
-Import provided sportshub.sql file
-Configure database connection:
+sql
+CREATE DATABASE sportshub;
+USE sportshub;
+SOURCE sportshub.sql;
+Configure Connection:
+
 php
-
-Copy
 // config.php
 <?php
 $host = "localhost";
-$user = "root";          // Default XAMPP username
-$password = "";           // Default XAMPP password
+$user = "root";
+$password = "";
 $database = "sportshub";
 ?>
-🖥️ Usage
-Start XAMPP services (Apache + MySQL)
-Access in browser:
-http://localhost/SportsHub
-Test accounts:
-User: email: user@demo.com | password: demo123
-Admin: email: admin@demo.com | password: admin123
-🧰 Tech Stack
+🚀 Features
+User Side
+Product catalog with filters
 
-Component	Technologies Used
-Frontend	HTML5, CSS3, JavaScript (ES6)
-Backend	PHP 7.4+
-Database	MySQL 5.7+
-Development	XAMPP, VS Code, Git
+Shopping cart system
+
+User authentication
+
+Order tracking
+
+Admin Side
+Product management (CRUD)
+
+Order processing
+
+User management
+
+Inventory tracking
+
+📜 License
+Apache License 2.0 - See LICENSE for details
