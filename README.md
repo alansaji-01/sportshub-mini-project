@@ -1,92 +1,77 @@
-# Sportshub Mini Project
+# Sportshub Mini Project 🏆
 
-A sports-related e-commerce platform to buy and sell sports items.  
-Built using **HTML, CSS, JavaScript, PHP, and MySQL**.  
-*(Project is under development)*
+![Sportshub Banner](https://via.placeholder.com/1200x400/2D3748/FFFFFF?text=Sportshub+E-Commerce)  
+*(Replace with your actual banner image)*
 
-## Project Overview
+A fully functional e-commerce platform for sports enthusiasts.  
+**Tech Stack**: HTML5, CSS3, JavaScript, PHP, MySQL  
+*Status: Under active development*
 
-Sportshub is a college mini-project demonstrating an e-commerce website for sports products. It allows users to browse, add items to a cart, and checkout, with backend support for authentication and product management.
+---
 
-## Features
+## 🚀 Features
+| Feature          | Description                                                                 |
+|------------------|-----------------------------------------------------------------------------|
+| **User System**  | Secure registration/login with form validation                              |
+| **Product Catalog** | Filterable grid of sports items with detailed views                         |
+| **Shopping Cart** | Add/remove items, quantity adjustment, and checkout process                |
+| **Admin Panel**  | Manage products, orders, and users (see screenshot below)                   |
 
-- Product listings with details and images
-- User registration and login
-- Shopping cart and checkout
-- Admin panel for product and order management
-- Responsive design for multiple devices
+---
 
-## Installation
+## 📸 Screenshots
+*(Replace these placeholder links with your actual screenshots)*
 
-1. **Prerequisites**:  
-   - [XAMPP](https://www.apachefriends.org/index.html) for Apache and MySQL  
-   - A modern web browser  
-   - Optional: [VS Code](https://code.visualstudio.com/) for editing
+| Page             | Preview                              |
+|------------------|--------------------------------------|
+| **Homepage**     | ![Home](https://via.placeholder.com/600x300?text=Homepage+Screenshot) |
+| **Product Page** | ![Products](https://via.placeholder.com/600x300?text=Product+Listing) |
+| **Admin Dashboard** | ![Admin](https://via.placeholder.com/600x300?text=Admin+Interface) |
 
-2. **Clone the Repository**:  
+---
+
+## 🛠️ Setup Guide
+
+### Prerequisites
+- [XAMPP](https://www.apachefriends.org/download.html) (v3.3.0+ recommended)
+- Modern browser (Chrome/Firefox/Edge)
+
+### Installation
+1. Clone the repository:
    ```bash
    git clone https://github.com/alansaji-01/sportshub-mini-project.git
-3. **Set Up Files**:
-   Move SportsHub to C:\xampp\htdocs\ (or your XAMPP htdocs folder)
+Move folder to XAMPP's htdocs:
+bash
 
-## Configuration
+Copy
+mv sportshub-mini-project /opt/lampp/htdocs/SportsHub  # Linux/Mac
+# OR manually copy to C:\xampp\htdocs\ on Windows
+Database setup:
+Access phpMyAdmin at http://localhost/phpmyadmin
+Create database sportshub
+Import provided sportshub.sql file
+Configure database connection:
+php
 
-1. **Start XAMPP**:
-   - Launch Apache and MySQL from the XAMPP Control Panel
-2. **Set Up Database**:
-   - Go to http://localhost/phpmyadmin
-   - Create a database named sportshub
-   - Import sportshub.sql from the project folder
-3. **Update Database Connection**:
-   - Edit config.php with your database credentials:
-   ```php
-   <?php
-   $host = "localhost";
-   $user = "root";
-   $password = "";
-   $database = "sportshub";
-   $conn = mysqli_connect($host, $user, $password, $database);
-   if (!$conn) {
-      die("Connection failed: " . mysqli_connect_error());
-     }
-   ?>
+Copy
+// config.php
+<?php
+$host = "localhost";
+$user = "root";          // Default XAMPP username
+$password = "";           // Default XAMPP password
+$database = "sportshub";
+?>
+🖥️ Usage
+Start XAMPP services (Apache + MySQL)
+Access in browser:
+http://localhost/SportsHub
+Test accounts:
+User: email: user@demo.com | password: demo123
+Admin: email: admin@demo.com | password: admin123
+🧰 Tech Stack
 
-  ## Usage
-
-  1. **Run the Application**:
-     - Ensure Apache and MySQL are running
-     - Visit http://localhost/SportsHub in your browser
-  2. **Explore Features**:
-     - Browse products, register/login, use the cart, or access the admin panel
-  3. **Troubleshooting**:
-     - Check XAMPP services, config.php, and database import if issues arise
-    
-  ## Technology Stack
-  
-  - Frontend: HTML, CSS, JavaScript
-  - Backend: PHP
-  - Database: MySQL
-  - Server: Apache (via XAMPP)
-
-  ## Contributing
-
-  Contributions are welcome!
-
-  - Fork the repo, create a branch, and submit a pull request
-  - For major changes, open an issue first
-
-  ## License
-
-  [Apache License](http://www.apache.org/licenses/)
-
-  ## Acknowledgments
-
-  - College guide for support
-  - Inspiration from Decathlon and Nike
-  - Tools: XAMPP, VS Code, GitHub
-
- ## Contact
-
- GitHub: alansaji-01
-
-Thank you for exploring Sportshub! 🏀⚽
+Component	Technologies Used
+Frontend	HTML5, CSS3, JavaScript (ES6)
+Backend	PHP 7.4+
+Database	MySQL 5.7+
+Development	XAMPP, VS Code, Git
