@@ -1,118 +1,158 @@
 # Sportshub Mini Project 🏆
 
-![Sportshub Banner](https://via.placeholder.com/1200x400/0D47A1/FFFFFF?text=SportsHub+E-Commerce+Platform) *(Replace with actual banner image)*
+![Sportshub Banner](https://via.placeholder.com/1200x400/0D47A1/FFFFFF?text=SportsHub+E-Commerce+Platform) *(Replace with actual banner)*
 
-A college mini-project demonstrating a full-stack sports e-commerce platform with user and admin interfaces.
-
+A full-stack sports e-commerce platform with user and admin interfaces.  
 **Tech Stack**:  
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 
 ---
 
-## 🖼️ User Interface Screenshots
+## 📌 Table of Contents
+- [Features](#-features)
+- [Screenshots](#-screenshots)
+- [Installation](#-installation)
+- [Configuration](#-configuration)
+- [Usage](#-usage)
+- [Tech Stack](#-tech-stack)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Acknowledgments](#-acknowledgments)
+- [Contact](#-contact)
 
-### 1. Home Page
-![home1](https://github.com/alansaji-01/sportshub-mini-project/blob/ba64af201cd8fb9a89b0541bad1a7cb70af12ea7/home1.png)  
-*(Homepage with navigation bar, search, and featured categories)*
+---
 
-SportsHub
-Focus on your Games
-Get Started
-2. Product Listing Page
-Products Page
-(Grid view of available sports products)
+## ✨ Features
 
-text
-Featured Products:
-- KONEX Basket Ball - ₹2799
-- BORALOMIO Cricket Bat - ₹1000
-- Puma AC Milan Kit - ₹4999 (Out of Stock)
-3. Product Detail Page
-Product Detail
-(Individual product view with add-to-cart functionality)
+### User Interface
+- Product catalog with filters
+- Shopping cart system
+- User authentication
+- Order tracking
+- Search functionality
 
-text
-P. Maldini Retro Jersey - ₹666
-Adidas AG Boot - ₹4999
-COMPETITION BALL - ₹3500
-4. Category Page
-Category Page
-(Product filtering by categories and collections)
+### Admin Panel
+- Product management (CRUD)
+- Order processing
+- User management
+- Inventory tracking
+- Security monitoring
 
-text
-Categories:
-- Footwear
-- Cricket
-- Football
-- Basketball
+---
 
-Collections:
-- Ultraboot
-- Real Madrid
-- FC Barcelona
-🛠️ Admin Panel Screenshots (Add your admin images here)
-1. Dashboard Overview
-Admin Dashboard
-(Placeholder for admin dashboard image)
+## 📸 Screenshots
 
-2. Product Management
-Product Management
-(Placeholder for product CRUD operations image)
+### User Interface
+| Page             | Preview                              | Description                     |
+|------------------|--------------------------------------|---------------------------------|
+| **Home v3**      | ![Home3](screenshots/home3.png)      | Landing page design v3          |
+| **Home v5**      | ![Home5](screenshots/home5.png)      | Updated homepage layout         |
+| **Home v6**      | ![Home6](screenshots/home6.png)      | Final homepage iteration        |
+| **Products**     | ![Products](screenshots/home5.png)   | Grid product listing            |
+| **Cart**         | ![Cart](screenshots/home6.png)       | Shopping cart interface         |
 
-3. Order Management
-Order Management
-(Placeholder for order processing image)
+### Admin Panel
+| Section               | Preview                              | Description                     |
+|-----------------------|--------------------------------------|---------------------------------|
+| **Dashboard**         | ![Admin1](screenshots/admin1.png)    | Admin overview                  |
+| **User Management**   | ![Admin2](screenshots/admin2.png)    | User control panel              |
+| **Product Editor**    | ![Admin3](screenshots/admin3.png)    | Product modification interface  |
+| **Order Overview**    | ![Admin4](screenshots/admin4.png)    | Order processing system         |
 
-⚙️ Project Setup
-Requirements:
+### Security Features
+![URL Protection](screenshots/malicious-url.png)  
+*Malicious URL detection system*
 
-XAMPP/WAMP Server
+![Guard System](screenshots/EnsembleGuard.png)  
+*Real-time security monitoring*
 
-Modern Web Browser
+---
 
-Installation:
+## 🛠️ Installation
+
+### Prerequisites
+- [XAMPP](https://www.apachefriends.org/download.html)
+- Modern web browser
+- Git (optional)
+
+### Setup
+1. Clone repository:
+   ```bash
+   git clone https://github.com/alansaji-01/sportshub-mini-project.git
+Move to XAMPP's htdocs:
 
 bash
-git clone https://github.com/alansaji-01/sportshub-mini-project.git
-cp -r sportshub-mini-project /opt/lampp/htdocs/  # Linux/Mac
-Database Configuration:
+mv sportshub-mini-project /opt/lampp/htdocs/SportsHub
+Start Apache & MySQL via XAMPP
+
+⚙️ Configuration
+Create database:
 
 sql
 CREATE DATABASE sportshub;
-USE sportshub;
-SOURCE sportshub.sql;
-Configure Connection:
+Import SQL file:
+
+bash
+mysql -u root -p sportshub < database/sportshub.sql
+Update config.php:
 
 php
-// config.php
 <?php
 $host = "localhost";
 $user = "root";
 $password = "";
 $database = "sportshub";
 ?>
-🚀 Features
-User Side
-Product catalog with filters
+🖥️ Usage
+Access application:
 
-Shopping cart system
+http://localhost/SportsHub
+Test credentials:
 
-User authentication
+User: test@demo.com / demo123
 
-Order tracking
+Admin: admin@demo.com / admin123
 
-Admin Side
-Product management (CRUD)
+🔧 Tech Stack
+Component	Technologies
+Frontend	HTML5, CSS3, JavaScript
+Backend	PHP 7.4+
+Database	MySQL 5.7+
+Security	Custom validation, Input sanitization
+Tools	XAMPP, VS Code, Git
+🤝 Contributing
+Fork the repository
 
-Order processing
+Create feature branch:
 
-User management
+bash
+git checkout -b feature/amazing-feature
+Commit changes:
 
-Inventory tracking
+bash
+git commit -m 'Add amazing feature'
+Push to branch:
+
+bash
+git push origin feature/amazing-feature
+Open Pull Request
 
 📜 License
-Apache License 2.0 - See LICENSE for details
+Distributed under Apache 2.0 License. See LICENSE for details.
+
+🙏 Acknowledgments
+College mentors for guidance
+
+Decathlon for design inspiration
+
+XAMPP development team
+
+📬 Contact
+Alan Saji
+GitHub Profile
+Project Repository
