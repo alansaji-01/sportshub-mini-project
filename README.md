@@ -1,6 +1,6 @@
 # Sportshub Mini Project 🏆
 
-![Sportshub Banner](https://via.placeholder.com/1200x400/0D47A1/FFFFFF?text=SportsHub+E-Commerce+Platform) *(Replace with actual banner)*
+![Sportshub Banner](https://github.com/alansaji-01/sportshub-mini-project/blob/b062098ab38202b209040f55cf821a20cc5e4521/sportsHubLogo.png) *(Replace with actual banner)*
 
 A full-stack sports e-commerce platform with user and admin interfaces.  
 **Tech Stack**:  
