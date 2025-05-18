@@ -58,7 +58,7 @@ A full-stack sports e-commerce platform with user and admin interfaces.
 ### Admin Panel
 | Section               | Preview                              | Description                     |
 |-----------------------|--------------------------------------|---------------------------------|
-| **Dashboard**         | ![Admin1](screenshots/admin1.png)    | Admin overview                  |
+| **Dashboard**         | ![Admin1](https://github.com/alansaji-01/sportshub-mini-project/blob/d9b72ade7af1082375d6797824ac716dea90b51c/admin1.png)    | Admin overview                  |
 | **User Management**   | ![Admin2](screenshots/admin2.png)    | User control panel              |
 | **Product Editor**    | ![Admin3](screenshots/admin3.png)    | Product modification interface  |
 | **Order Overview**    | ![Admin4](screenshots/admin4.png)    | Order processing system         |
