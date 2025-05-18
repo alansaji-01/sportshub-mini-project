@@ -1,4 +1,4 @@
-# Sportshub Mini Project 🏆
+# Sportshub-Project 🏆
 
 <img src="https://github.com/alansaji-01/sportshub-mini-project/blob/b062098ab38202b209040f55cf821a20cc5e4521/sportsHubLogo.png" alt="Sportshub Logo" width="200" align="right">
 
