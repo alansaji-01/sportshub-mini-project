@@ -50,7 +50,7 @@ A full-stack sports e-commerce platform with user and admin interfaces.
 ### User Interface
 | Page             | Preview                              | Description                     |
 |------------------|--------------------------------------|---------------------------------|
-| **Home**         | ![Home1](screenshots/home3.png)      | Landing page design v1          |
+| **Home**         | ![Home1](https://github.com/alansaji-01/sportshub-mini-project/blob/277b9780f3946a60fac084e3eba50776ec82927d/home1.png)      | Landing page design v1          |
 | **Home**         | ![Home2](screenshots/home5.png)      | homepage layout                 |
 | **Home**         | ![Home3](screenshots/home6.png)      | homepage iteration              |
 | **Products**     | ![Products](screenshots/home5.png)   | Grid product listing            |
