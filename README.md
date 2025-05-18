@@ -50,9 +50,9 @@ A full-stack sports e-commerce platform with user and admin interfaces.
 ### User Interface
 | Page             | Preview                              | Description                     |
 |------------------|--------------------------------------|---------------------------------|
-| **Home v3**      | ![Home3](screenshots/home3.png)      | Landing page design v3          |
-| **Home v5**      | ![Home5](screenshots/home5.png)      | Updated homepage layout         |
-| **Home v6**      | ![Home6](screenshots/home6.png)      | Final homepage iteration        |
+| **Home**         | ![Home1](screenshots/home3.png)      | Landing page design v1          |
+| **Home**         | ![Home2](screenshots/home5.png)      | homepage layout                 |
+| **Home**         | ![Home3](screenshots/home6.png)      | homepage iteration              |
 | **Products**     | ![Products](screenshots/home5.png)   | Grid product listing            |
 | **Cart**         | ![Cart](screenshots/home6.png)       | Shopping cart interface         |
 
@@ -64,14 +64,6 @@ A full-stack sports e-commerce platform with user and admin interfaces.
 | **Product Editor**    | ![Admin3](screenshots/admin3.png)    | Product modification interface  |
 | **Order Overview**    | ![Admin4](screenshots/admin4.png)    | Order processing system         |
 
-### Security Features
-![URL Protection](screenshots/malicious-url.png)  
-*Malicious URL detection system*
-
-![Guard System](screenshots/EnsembleGuard.png)  
-*Real-time security monitoring*
-
----
 
 ## 🛠️ Installation
 
