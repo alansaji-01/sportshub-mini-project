@@ -16,7 +16,7 @@ A college mini-project demonstrating a full-stack sports e-commerce platform wit
 ## 🖼️ User Interface Screenshots
 
 ### 1. Home Page
-![Home Page](https://via.placeholder.com/800x400?text=Home+Page+Screenshot)  
+![home1](https://via.placeholder.com/800x400?text=Home+Page+Screenshot)  
 *(Homepage with navigation bar, search, and featured categories)*
 
 SportsHub
