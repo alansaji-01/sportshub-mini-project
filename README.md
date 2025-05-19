@@ -1,131 +1,129 @@
-# Sportshub-Project 🏆
+🏆 SportHub | Sports E-Commerce Platform
+<div align="center">
+  <img src="https://via.placeholder.com/1200x300/0A2463/FFFFFF?text=SportHub" alt="SportHub Banner" />
+  <p><em>Where sports enthusiasts find their gear</em></p>
+Show Image
+Show Image
+Show Image
+</div>
+📋 Overview
+SportHub is a comprehensive e-commerce platform designed for sports enthusiasts to browse, select, and purchase sporting equipment with ease. The application features a responsive design, intuitive navigation, and secure transaction handling to provide a seamless shopping experience.
+Key Highlights
 
-<img src="https://github.com/alansaji-01/sportshub-mini-project/blob/b062098ab38202b209040f55cf821a20cc5e4521/sportsHubLogo.png" alt="Sportshub Logo" width="200" align="right">
+User-friendly Interface: Clean, responsive design optimized for all devices
+Secure Authentication: Robust user registration and login system
+Dynamic Product Catalog: Filter and search capabilities with detailed product information
+Full Shopping Experience: Cart management, checkout process, and order tracking
+Administrative Control: Complete backend management for products, users, and orders
 
-A full-stack sports e-commerce platform with user and admin interfaces.  
-**Tech Stack**:  
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+✨ Feature Breakdown
+For Customers
 
----
+Account creation and profile management
+Advanced product search and filtering options
+Wishlist functionality
+Cart management with persistent storage
+Secure checkout with multiple payment options
+Order history and tracking
 
-## 📌 Table of Contents
-- [Features](#-features)
-- [Screenshots](#-screenshots)
-- [Installation](#-installation)
-- [Configuration](#-configuration)
-- [Usage](#-usage)
-- [Tech Stack](#-tech-stack)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Contact](#-contact)
+For Administrators
 
----
+Comprehensive dashboard with sales analytics
+Inventory management system
+User account administration
+Order processing workflow
+Content management for product listings
 
-## ✨ Features
+🖼️ Interface Preview
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><strong>Home Page</strong></td>
+      <td align="center"><strong>Product Catalog</strong></td>
+    </tr>
+    <tr>
+      <td><img src="https://via.placeholder.com/450x250?text=SportHub+Homepage" alt="Home Page" /></td>
+      <td><img src="https://via.placeholder.com/450x250?text=Product+Catalog" alt="Product Catalog" /></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Shopping Cart</strong></td>
+      <td align="center"><strong>Admin Dashboard</strong></td>
+    </tr>
+    <tr>
+      <td><img src="https://via.placeholder.com/450x250?text=Shopping+Cart" alt="Shopping Cart" /></td>
+      <td><img src="https://via.placeholder.com/450x250?text=Admin+Dashboard" alt="Admin Dashboard" /></td>
+    </tr>
+  </table>
+</div>
+🛠️ Technology Stack
+LayerTechnologiesFrontendHTML5, CSS3, JavaScript (ES6+), Responsive DesignBackendPHP 7.4+, Server-side ValidationDatabaseMySQL 5.7+, Relational SchemaDevelopmentXAMPP, Git, VS CodeSecurityPassword Hashing, Form Validation, Session Management
+📦 Installation Guide
+System Requirements
 
-### User Interface
-- Product catalog with filters
-- Shopping cart system
-- User authentication
-- Order tracking
-- Search functionality
+XAMPP 3.3.0 or higher
+Modern web browser (Chrome, Firefox, Edge)
+Git (optional, for cloning)
 
-### Admin Panel
-- Product management (CRUD)
-- Order processing
-- User management
-- Inventory tracking
-- Security monitoring
+Step-by-Step Setup
 
----
+Get the code
+bash# Clone the repository (or download ZIP)
+git clone https://github.com/alansaji-01/sportshub-mini-project.git
 
-## 📸 Screenshots
+Deploy to server environment
+bash# For Linux/Mac
+mv sportshub-mini-project /opt/lampp/htdocs/SportHub
 
-### User Interface
-| Page             | Preview                              | Description                     |
-|------------------|--------------------------------------|---------------------------------|
-| **Home**         | ![Home1](https://github.com/alansaji-01/sportshub-mini-project/blob/277b9780f3946a60fac084e3eba50776ec82927d/home1.png)      | Landing page          |
-| **Home**         | ![Home2](https://github.com/alansaji-01/sportshub-mini-project/blob/412dd61bd9febac4e41da92c5e5f15ed563a2b40/home2.png)      | homepage                        |
-| **Products**     | ![Products](https://github.com/alansaji-01/sportshub-mini-project/blob/f80ce38b8e6097b3ec79e02988acf941b14fe420/products.png)   | product listing                 |
-| **Cart**         | ![Cart](https://github.com/alansaji-01/sportshub-mini-project/blob/d851254130b065103573559649c28c21f06823af/cart.png)       | Shopping cart interface         |
+# For Windows
+# Copy files to C:\xampp\htdocs\SportHub
 
-### Admin Panel
-| Section               | Preview                              | Description                     |
-|-----------------------|--------------------------------------|---------------------------------|
-| **Dashboard**         | ![Admin1](https://github.com/alansaji-01/sportshub-mini-project/blob/d9b72ade7af1082375d6797824ac716dea90b51c/admin1.png)    | Admin overview                  |
-| **User Management**   | ![Admin2](https://github.com/alansaji-01/sportshub-mini-project/blob/de1fa4caa37128f780b752231a63974e4cb140fb/userlist.png)    | User control panel              |
-| **Product Editor**    | ![Admin3](https://github.com/alansaji-01/sportshub-mini-project/blob/06bc4acd2c91d9ed38c7d77d2495ef98e43b9480/admin4.png)    | Product modification interface  |
-| **Order Overview**    | ![Admin4](https://github.com/alansaji-01/sportshub-mini-project/blob/44e1657bbf15ee3961157c5c8937fab86488759e/admin2.png)    | Order processing system         |
+Database initialization
+
+Launch XAMPP and start Apache and MySQL services
+Open PhpMyAdmin: http://localhost/phpmyadmin
+Create a new database named sportshub
+Import the database schema from sportshub.sql
 
 
-## 🛠️ Installation
+Configure connection
+php// Edit config.php with your database details
+$db_host = "localhost";
+$db_user = "root";
+$db_pass = "";
+$db_name = "sportshub";
 
-### Prerequisites
-- [XAMPP](https://www.apachefriends.org/download.html)
-- Modern web browser
-- Git (optional)
 
-### Setup
-1. Clone repository:
-   ```bash
-   git clone https://github.com/alansaji-01/sportshub-mini-project.git
-Move to XAMPP's htdocs:
+🚀 Getting Started
 
-bash
-mv sportshub-mini-project /opt/lampp/htdocs/SportsHub
-Start Apache & MySQL via XAMPP
+Launch the application
 
-⚙️ Configuration
-Create database:
+Ensure Apache and MySQL services are running in XAMPP
+Navigate to: http://localhost/SportHub in your browser
 
-sql
-CREATE DATABASE sportshub;
-Import SQL file:
 
-bash
-mysql -u root -p sportshub < database/sportshub.sql
-Update config.php:
+Test accounts
+RoleEmailPasswordCustomeruser@demo.comdemo123Administratoradmin@demo.comadmin123
 
-php
-<?php
-$host = "localhost";
-$user = "root";
-$password = "";
-$database = "sportshub";
-?>
-🖥️ Usage
-Access application:
+Explore the features
 
-http://localhost/SportsHub
+Browse the product catalog
+Add items to cart
+Process a test order
+Login to admin panel to manage products and orders
 
-🔧 Tech Stack
-Component	Technologies
-Frontend	HTML5, CSS3, JavaScript
-Backend	PHP 7.4+
-Database	MySQL 5.7+
-Security	Custom validation, Input sanitization
-Tools	XAMPP, VS Code, Git
-🤝 Contributing
-Fork the repository
 
-Create feature branch:
 
-bash
-git checkout -b feature/amazing-feature
-Commit changes:
+👨‍💻 Development
+The project follows a structured MVC-like architecture:
 
-bash
-git commit -m 'Add amazing feature'
-Push to branch:
+assets/ - CSS, JavaScript, and image files
+includes/ - Reusable PHP components and libraries
+admin/ - Administrator dashboard and management features
+config/ - Configuration files and database connection
 
-bash
-git push origin feature/amazing-feature
-Open Pull Request
+📄 License
+This project is intended for educational purposes.
 
-📜 License
-Distributed under Apache 2.0 License. See LICENSE for details.
+<div align="center">
+  <p>Developed by Alan Saji</p>
+</div>
